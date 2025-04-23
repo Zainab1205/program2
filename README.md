@@ -1,9 +1,9 @@
-Here's the HTML code to recreate the table shown in your image:
+
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Seminar Schedule</title>
+    <title> Seminar Schedule </title>
     <style>
         table, th, td {
             border: 1px solid black;
@@ -63,5 +63,3 @@ Here's the HTML code to recreate the table shown in your image:
     </table>
 </body>
 </html>
-
-You can copy this code into any HTML file and open it in a browser to see the formatted seminar schedule table. Let me know if you want a more styled version!
