@@ -1,60 +1,67 @@
+Here's the HTML code to recreate the table shown in your image:
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Seminar Schedule</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+        th {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-   <table border="2">
-    <tr>
-        <th rowspan="3">Day</th>
-        <th colspan="5">Seminar</th>
-    </tr>
-    <tr>
-        <th colspan="2">Schedule</th>
-        <th colspan="5" rowspan="2">Topic</th>
-    </tr>
-    <tr>
-        <th>Begin</th>
-        <th>End</th>
-    </tr>
-    <tr>
-        <td rowspan="2">Monday</td>
-        <td rowspan="2">8:00 a.m</td>
-        <td rowspan="2">5:00 p.m</td>
-        <td>Introduction to XML</td>
-    </tr>
-    <tr>
-        <td>Validity DTD and Relax NG</td>
-    </tr>
-
-    <tr>
-        <td rowspan="4">Tuesday</td>
-        <td>8:00 a.m</td>
-        <td >5:00 p.m</td>
-        <td rowspan="2">XPath</td> 
-    </tr>
-
-    <tr>
-    <td rowspan="2">11:00 a.m</td>
-    <td rowspan="2">2:00 p.m</td>
-    </tr>
-    <tr>
-        <td rowspan="2"> XSL Transformation</td>
-    </tr>
-
-    <tr>
-        <td >2:0 p.m</td>
-        <td>5:0 p.m</td>
-    </tr>
-    <tr>
-        <td>Wednesday</td>
-        <td>8:00 a.m</td>
-        <td>11:00 a.m</td>
-        <td> XSL Transformation</td>
-
-    </tr>
-   </table> 
+    <h3>1. Write HTML Code output in below</h3>
+    <table>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td>8:00 a.m.</td>
+            <td>5:00 p.m.</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td colspan="2"> </td>
+            <td>Validity: DTD and Relax NG</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>8:00 a.m.</td>
+            <td>11:00 a.m.</td>
+            <td>XPath</td>
+        </tr>
+        <tr>
+            <td rowspan="2"> </td>
+            <td>11:00 a.m.</td>
+            <td>2:00 p.m.</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>2:00 p.m.</td>
+            <td>5:00 p.m.</td>
+            <td> </td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 a.m.</td>
+            <td>12:00 p.m.</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
 </body>
 </html>
+
+You can copy this code into any HTML file and open it in a browser to see the formatted seminar schedule table. Let me know if you want a more styled version!
