@@ -5,15 +5,12 @@
 <head>
     <title> Seminar Schedule </title>
     <style>
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
-        }
-        th {
-            text-align: center;
-        }
-    </style>
+    table border="2">
+    <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="5">Seminar</th>
+    </tr>
+
 </head>
 <body>
     <h3>1. Write HTML Code output in below</h3>
